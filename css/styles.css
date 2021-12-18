@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+}
+
+.main-div {
+  background-color: hsl(216, 50%, 16%);
+  width: 20rem;
+  height: 35rem;
+  margin: 2rem auto 0 auto;
+  border-radius: 20px;
+  text-align: center;
+  padding: 24px;
+  padding-top: 10px;
+}
+
+.section1 {
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+}
+
+.heading {
+  margin: 0.7rem 0 2rem 0;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  margin-left: -6rem;
+}
+
+.equilibrium {
+  width: 100%;
+  height: 50%;
+  border-radius: 15px;
+}
+
+.para {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+  color: hsl(215, 51%, 70%);
+  margin-bottom: 2rem;
+}
+
+.bottom-content {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 1rem;
+  margin-left: -15px;
+  margin-bottom: 2rem;
+}
+
+.bottom-content p {
+  color: white;
+}
+.bottom-content p img {
+  margin-right: 0.3rem;
+}
+
+hr {
+    border : 1px solid hsl(215, 32%, 27%);
+}
+
+.author-img{
+    width : 10%;
+    margin-right: 0.5rem;
+    border : 1px solid white;
+    border-radius: 50%;
+    margin-left: -18%;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.8rem;
+}
+
+.author p{
+    color : white;
+}
